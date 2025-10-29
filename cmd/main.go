@@ -14,4 +14,8 @@ func main() {
 	mySet.Add(2)
 	fmt.Println(mySet.Has(1));
 	fmt.Println(mySet.Len());
+	mySet.Delete(1);
+	fmt.Println(mySet.Len());
+	mySet.Clear();
+	fmt.Println(mySet.Len());
 }
